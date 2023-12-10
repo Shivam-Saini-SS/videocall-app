@@ -10,7 +10,7 @@ function handleLogin(event) {
         password: password
     };
 
-    fetch('http://localhost:8080/api/v1/users/login', {
+    fetch('http://3.109.143.214/api/v1/users/login', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

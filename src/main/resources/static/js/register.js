@@ -14,7 +14,7 @@ function handleRegistration(event) {
         password: password,
         status: status,
     };
-    fetch('http://localhost:8080/api/v1/users', {
+    fetch('http://3.109.143.214/api/v1/users', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
